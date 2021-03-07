@@ -77,3 +77,45 @@ body {
             display: flex;
             flex-wrap: wrap;
         }
+
+    .sections {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px;
+        
+    }
+    
+        .sections h3 {
+            font-size: 30px;
+            color: grey;
+            border-right: 3px solid;
+            text-align: right;
+            
+            background-color: pink;
+            padding: 40px 40px 100px 40px;
+        }
+
+        .sections p {
+            line-height: 1.5;
+            
+            font-size: 15px;
+            
+            text-align: left;
+            
+            
+            background-color: pink;
+        }
+
+    #about-me {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }    
+        #about-me-img {
+            width: 30%;
+            display: flex;
+            flex-wrap: wrap;
+            
+           
+        }
