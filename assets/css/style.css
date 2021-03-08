@@ -53,14 +53,14 @@ body {
                 }
 
     .hero {
-        background-image: none;
+        background-image: url("../images/bonfire.jpg");
         background-color: black;
         background-position: center;
         display: flex;
         flex-wrap: wrap;
         background-size: cover;
         justify-content: flex-end;
-        padding: 70px 10px 10px 10px;
+        padding: 70px 100px 10px 100px;
         color: blanchedalmond;
     }
 
@@ -80,42 +80,33 @@ body {
 
     .sections {
         display: flex;
-        flex-wrap: wrap;
         justify-content: space-between;
         padding: 20px;
-        
+        margin-bottom: 25px;
     }
     
+      .sections>div {
+          flex: 0 0 30%;
+      }
+
         .sections h3 {
             font-size: 30px;
             color: grey;
             border-right: 3px solid;
             text-align: right;
-            
-            background-color: pink;
-            padding: 40px 40px 100px 40px;
+            padding: 40px 40px 300px 40px;
         }
 
         .sections p {
             line-height: 1.5;
-            
             font-size: 15px;
-            
             text-align: left;
-            
-            
-            background-color: pink;
         }
 
-    #about-me {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-    }    
         #about-me-img {
-            width: 30%;
+            width: 100%;
             display: flex;
             flex-wrap: wrap;
-            
-           
+            border: 5px solid black;
         }
+
