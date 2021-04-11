@@ -112,9 +112,9 @@ body {
             border: 5px solid black;
         }
 
-    #work {
+    /* #work {
         
-    }
+    } */
         .projects {
             flex-direction: column;
             justify-content: space-between;
@@ -138,6 +138,14 @@ body {
 
             #Horiseon {
                 background-color: red;
+                margin: 10px;
+                width: 45%;
+                padding: 10px;
+                border: 5px solid rgb(61, 199, 199);
+            }
+
+            #Just-Write {
+                background-color: purple;
                 margin: 10px;
                 width: 45%;
                 padding: 10px;
